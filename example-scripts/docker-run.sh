@@ -1,0 +1,1 @@
+#docker run -p 3000:3000 -p 8080:8080 --name bs-3d-team brainstation/3d-node-react:v1
