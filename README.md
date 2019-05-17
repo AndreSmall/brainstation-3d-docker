@@ -1,4 +1,4 @@
-#Docker Configuration
+# Docker Configuration
 
 ## Setup
 
@@ -109,13 +109,13 @@ $ docker container ls
 $ docker inspect -f   '{{.Id}}'  <<container name>>
 ```
 
-###Get container ID from the *name* of the container
+### Get container ID from the *name* of the container
 
 ```bash
 $ docker inspect -f   '{{.Id}}'  <<container name>>
 ```
 
-###Copy files/folders into current running container
+### Copy files/folders into current running container
 
 ```bash
 $ docker cp ./hackathon <<container ID>>:./app
@@ -123,7 +123,7 @@ $ docker cp ./hackathon <<container ID>>:./app
 
 Becareful when copying as the command above will copy the `hackathon` directory into `/app`
 
-###Exec shell commands in the running container
+### Exec shell commands in the running container
 
 ```bash
 $ docker exec <<container ID>> rm -rvf /app/hackathon
