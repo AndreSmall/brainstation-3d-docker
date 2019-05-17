@@ -23,7 +23,7 @@ $ docker container prune
 
 This will download the node image from docker and create the image on your computer
 
-![Screen Shot 2019-05-16 at 4.12.37 PM](/assets/Screen Shot 2019-05-16 at 4.12.37 PM.png)
+![Screen Shot 2019-05-16 at 4.12.37 PM](./assets/Screen Shot 2019-05-16 at 4.12.37 PM.png)
 
 
 
