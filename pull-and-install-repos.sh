@@ -8,5 +8,5 @@ do
    echo '####################'
    echo $DIR
    echo '####################'
-   $(cd ${DIR} && npm run install:all)
+   $(cd ${DIR} && git reset --hard -q && git pull && npm run install:all)
 done
